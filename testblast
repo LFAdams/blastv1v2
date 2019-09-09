@@ -8,4 +8,4 @@
 cd $PBS_O_WORKDIR
 
 module load BLAST+/2.7.1-foss-2016b-Python-2.7.14
-blastn -num_threads 4 -db /work/cemlab/reference_genomes/97103_v2.fa -query /home/lfa81121/test.fa -out test -outfmt 6
+blastn -num_threads 4 -db /work/cemlab/reference_genomes/97103_v2.fa -query /home/lfa81121/blastv1v2/nbsgenes.txt -out nbs1v2 -outfmt 6
