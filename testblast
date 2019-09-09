@@ -1,0 +1,11 @@
+#PBS -S /bin/bash
+#PBS -N blasttest
+#PBS -l nodes=1:ppn=4:AMD
+#PBS -q batch
+#PBS -l walltime=480:00:00
+#PBS -l mem=20gb
+
+cd $PBS_O_WORKDIR
+
+module load BLAST+/2.7.1-foss-2016b-Python-2.7.14
+blastn -num_threads 4 -db /work/cemlab/reference_genomes/97103_v2.fa -query /home/lfa81121/test.fa -out test -outfmt 6
