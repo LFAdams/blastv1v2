@@ -10,4 +10,4 @@
 module load BLAST+/2.7.1-foss-2016b-Python-2.7.14
 
 ## this runs the makeblastdb program to generate blast db
-makeblastdb -in /work/cemlab/reference_genomes/97103_v2.fa -parse_seqids -title "97103_v2" -dbtype nucl -out /work/cemlab/reference_genomes/97103_v2blastdb
+makeblastdb -in /work/cemlab/reference_genomes/97103_v2.fa -title 97103_v2 -dbtype nucl -out /work/cemlab/reference_genomes/97103_v2blastdb
