@@ -8,4 +8,4 @@
 cd /work/cemlab/reference_genomes/
 
 module load BLAST+/2.7.1-foss-2016b-Python-2.7.14
-blastn -num_threads 4 -db 97103_v2 -query /home/lfa81121/blastv1v2/nbsgenes.txt -out /home/lfa81121/nbs1v2 -outfmt 6
+blastn -num_threads 4 -db 97103_v2blastdb.nin -query /home/lfa81121/blastv1v2/nbsgenes.txt -out /home/lfa81121/nbs1v2 -outfmt 6
