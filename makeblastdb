@@ -6,9 +6,6 @@
 #PBS -l mem=20gb
 ## the above requests the proper cluster resources (needs sys resource optimization)
 
-## this changes the working directory to scratch
-cd /scratch/lfa81121/blast1v2
-
 ## this loads the BLAST+ module
 module load BLAST+/2.7.1-foss-2016b-Python-2.7.14
 
