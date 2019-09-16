@@ -1,6 +1,6 @@
 #PBS -S /bin/bash
 #PBS -q batch
-#PBS -N j_fastxtoolkit
+#PBS -N csv
 #PBS -l nodes=1:ppn=1:AMD
 #PBS -l walltime=480:00:00
 #PBS -l mem=80gb
