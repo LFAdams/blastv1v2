@@ -1,5 +1,5 @@
 #PBS -S /bin/bash
-#PBS -N blasttest
+#PBS -N blastv1v2
 #PBS -l nodes=1:ppn=4:AMD
 #PBS -q batch
 #PBS -l walltime=480:00:00
